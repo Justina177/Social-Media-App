@@ -1,5 +1,5 @@
 :root {
-  --yello: #f5c32c;
+  --yellow: #f5c32c;
   --orange: #fca61f;
   --black: #242d49;
   --gray: rgba(36, 45, 73, 0.65);
@@ -30,4 +30,24 @@
   border-radius: 50%;
   background: #9cddf2;
   filter: blur(72px);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: navajowhite;
+  border-radius: 0.5rem;
+  background: var(--buttonBG);
+
+}
+
+.button:hover {
+  cursor: pointer;
+  color: var(--orange);
+  background: transparent;
+  border: 2px solid var(--orange);
+
+
 }
