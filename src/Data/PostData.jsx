@@ -1,1 +1,0 @@
-import postPic1 from '../img/img1.png'
