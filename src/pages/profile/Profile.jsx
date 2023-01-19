@@ -14,8 +14,6 @@ const Profile = () => {
           <ProfileCard />
           <PostSide/>
           
-          
-
         </div>
 
         <RightSide />
